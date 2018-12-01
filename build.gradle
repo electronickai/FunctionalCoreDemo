@@ -25,12 +25,9 @@ repositories {
 
 dependencies { 
 //	TODO KSC 30.11.2018: Add Support for JUnit5
-// 	TODO KSC 01.12.2018: Check whether to use JOOQ or other lightweight ORM (or NoSQL-Stores) for this demo
-//	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
 	implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 	runtimeOnly('org.postgresql:postgresql')
-	compileOnly('org.projectlombok:lombok')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }

@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" lang="de">
 <head>
-    <title th:text="${customer} + ' User Manager'"/>
+    <title th:text="${customer} + ' User Manager'"></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
-<p th:text="'Hello, ' + ${customer} + '!'"/>
+<p th:text="'Hallo, ' + ${customer} + '!'"></p>
+<form action="/command/create-player" method="post">
+    Spielername: <input type="text" name="Spielername"/>
+    <button type="submit">Spieler Erstellen</button>
+</form>
+<div th:if="${not #strings.isEmpty(newPlayer)}" th:text="'Spieler ' + ${newPlayer} + ' erstellt'"></div>
 </body>
 </html>
