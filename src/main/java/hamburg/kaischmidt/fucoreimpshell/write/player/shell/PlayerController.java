@@ -1,6 +1,6 @@
-package hamburg.kaischmidt.fucoreimpshell.player.shell;
+package hamburg.kaischmidt.fucoreimpshell.write.player.shell;
 
-import hamburg.kaischmidt.fucoreimpshell.player.core.PlayerCreatedCommand;
+import hamburg.kaischmidt.fucoreimpshell.write.player.core.PlayerCreatedCommand;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

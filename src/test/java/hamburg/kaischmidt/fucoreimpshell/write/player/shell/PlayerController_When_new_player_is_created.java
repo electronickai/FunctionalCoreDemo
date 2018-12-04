@@ -1,4 +1,4 @@
-package hamburg.kaischmidt.fucoreimpshell.player.shell;
+package hamburg.kaischmidt.fucoreimpshell.write.player.shell;
 
 import hamburg.kaischmidt.fucoreimpshell.events.core.PlayerCreatedEvent;
 import hamburg.kaischmidt.fucoreimpshell.events.shell.EventStore;
@@ -35,7 +35,7 @@ public class PlayerController_When_new_player_is_created {
         assertThat(store.getEvents()).isEmpty();
 
         //Act
-        mockMvc.perform(post("/command/create-player").contentType(APPLICATION_FORM_URLENCODED_VALUE).content("Spielername=Test").accept(APPLICATION_FORM_URLENCODED_VALUE))
+        mockMvc.perform(post("/command/create-player").contentType(APPLICATION_FORM_URLENCODED_VALUE).content("Spielername=" + newPlayer).accept(APPLICATION_FORM_URLENCODED_VALUE))
                 .andDo(print())
                 .andExpect(status().is3xxRedirection());
 

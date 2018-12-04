@@ -1,8 +1,8 @@
-package hamburg.kaischmidt.fucoreimpshell.player.shell;
+package hamburg.kaischmidt.fucoreimpshell.write.player.shell;
 
 import hamburg.kaischmidt.fucoreimpshell.events.shell.EventStore;
-import hamburg.kaischmidt.fucoreimpshell.player.core.PlayerAggregate;
-import hamburg.kaischmidt.fucoreimpshell.player.core.PlayerCreatedCommand;
+import hamburg.kaischmidt.fucoreimpshell.write.player.core.PlayerAggregate;
+import hamburg.kaischmidt.fucoreimpshell.write.player.core.PlayerCreatedCommand;
 import org.springframework.stereotype.Component;
 
 @Component

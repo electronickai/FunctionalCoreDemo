@@ -1,4 +1,4 @@
-package hamburg.kaischmidt.fucoreimpshell.player.core;
+package hamburg.kaischmidt.fucoreimpshell.write.player.core;
 
 public class PlayerCreatedCommand {
 

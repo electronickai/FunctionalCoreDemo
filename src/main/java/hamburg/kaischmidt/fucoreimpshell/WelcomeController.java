@@ -1,4 +1,4 @@
-package hamburg.kaischmidt.fucoreimpshell.shell;
+package hamburg.kaischmidt.fucoreimpshell;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
