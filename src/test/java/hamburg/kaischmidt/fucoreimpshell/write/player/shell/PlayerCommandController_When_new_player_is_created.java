@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class PlayerController_When_new_player_is_created {
+public class PlayerCommandController_When_new_player_is_created {
 
     @Autowired
     private MockMvc mockMvc;
